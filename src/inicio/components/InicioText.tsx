@@ -1,23 +1,22 @@
 import React from "react";
 import InicioTextProp from "../types/InicioTextProp";
 
-function InicioText({ text, color }: InicioTextProp) {
-  // Objeto que mapea los colores a las clases correspondientes
-  const colorClasses = {
-    primary: "text-custom-primary",
-    secondary: "text-custom-secondary",
-    accent: "text-custom-accent",
-    black: "text-custom-black",
-    white: "text-custom-white"
-  };
+function InicioText({ text, color, font, px }: InicioTextProp) {
 
-  // Obtén la clase correspondiente según el color proporcionado
-  const textColorClass = colorClasses[color] || "";
 
   return (
-      <span className={`font-bold text-[96px] text-wrap ${textColorClass}`}>
-        {text}
-      </span>
+    <span className={`
+    ${color === 'primary' ? "text-custom-primary" : 
+    color === 'accent' ? "text-custom-accent" : 
+    color === 'white' ? 'text-custom-white' : ''}
+    ${font === 'neue' ? 'font-helveticaNeue' : 
+      font === 'lora' ? 'font-subtitle' : 
+      font === 'SF' ? 'font-SFProDisplay' : ''
+    }
+      
+    `} style={{ fontSize: px }}>
+      {text}
+    </span>
   );
 }
 

@@ -8,16 +8,20 @@ export default {
     extend: {
       colors: {
         custom: {
+          white: '#FFFFFF',
           primary: '#20193F',
           secondary: '#959ADC',
           accent: '#C3F123',
           black: '#1D1D1D',
-          white: '#FFFFFF'
-          // Puedes agregar más colores aquí según sea necesario
         },
       },
       fontFamily: {
         title: ['Neue Haas Grotesk'],
+        helveticaNeue: ["helvetica neue"],
+        helveticaNeueBold: ["helvetica neue bold"],
+        SFProDisplaySemiBold: ['SF Pro Display SemiBold'],
+        SFProDisplay: ['SF Pro Display'],
+        SFProDisplayBold: ['SF Pro Display Bold'],
         subtitle: ['Lora'],
         text: ['San Francisco Pro Display'],
         },

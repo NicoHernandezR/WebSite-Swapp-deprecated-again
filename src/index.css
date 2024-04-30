@@ -2,3 +2,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "helvetica neue";
+  src: url('/src/assets/fonts/HelveticaNeue/HelveticaNeueBlack.otf');
+}
+
+@font-face {
+  font-family: "helvetica neue bold";
+  src: url('/src/assets/fonts/HelveticaNeue/HelveticaNeueBold.otf');
+}
+
+@font-face {
+  font-family: "SF Pro Display SemiBold";
+  src: url('/src/assets/fonts/SfProDisplay/SFPRODISPLAYSEMIBOLDITALIC.OTF');
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url('/src/assets/fonts/SfProDisplay/SFPRODISPLAYREGULAR.OTF');
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold";
+  src: url('/src/assets/fonts/SfProDisplay/SFPRODISPLAYBOLD.OTF');
+}
