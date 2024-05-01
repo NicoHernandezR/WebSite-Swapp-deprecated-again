@@ -1,10 +1,12 @@
-type FontTypes = 'lora' | 'neue' | 'SF';
+type FontTypes = 'lora' | 'neue' | 'SF' | 'neue bold';
+type ElemType = 'p' | 'span'
 
 type InicioTextProp = {
   text: string,
   color: string,
   font: FontTypes,
-  px: number
+  rem: number
+  elem?: ElemType
 }
 
 export default InicioTextProp
