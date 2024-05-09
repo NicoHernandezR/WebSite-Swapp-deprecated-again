@@ -29,12 +29,13 @@ function FirstLayer() {
   ];
   return (
     <div className="bg-gradient-to-b from-custom-secondary from-10% via-custom-secondary via-30% to-custom-primary to-95%">
-      <div className="pt-10 px-[106px]">
+      <div className="pt-10 md:px-[106px] max-md:justify-center max-md:items-center max-md:flex">
         <img className="w-[206px] h-[54px]" src={logo} alt="Phone" />
       </div>
-      <div className="flex justify-between pl-[100px] pr-[30px] pb-10">
-        <div className="flex-[5] whitespace-pre text-wrap pt-16">
-          <p className="leading-none relative bottom-[7px]">
+      <div className="flex lg:flex-row flex-col justify-between items-center md:text-left md:pl-[100px] md:pr-[30px] pb-10">
+        <div className="flex-[5] whitespace-pre text-wrap pt-16 max-md:justify-between max-md:items-center
+        flex flex-col">
+          <p className="leading-none relative bottom-[7px]  first-letter:w-auto max-lg:text-center md:w-[100%]">
             {InicioTextList.map((item, index) => (
               <InicioText
                 key={index}
@@ -42,6 +43,7 @@ function FirstLayer() {
                 color={item.color}
                 rem={item.rem}
                 font={item.font}
+                customClass="max-lg:!text-[4rem] max-[400px]:!text-[3rem]"
               />
             ))}
           </p>
@@ -60,8 +62,8 @@ function FirstLayer() {
           </button>
         </div>
 
-        <div className="flex-[6] pl-2 relative bottom-[17px] left-[11px]">
-          <img src={phone} alt="Phone" />
+        <div className="flex-[6] md:pl-2 relative md:bottom-[17px] md:left-[11px] max-xl:mt-4">
+          <img className="w-[40rem] sm:h-[38.3rem] max-sm:left-1 max-sm:relative" src={phone} alt="Phone" />
         </div>
       </div>
     </div>

@@ -1,10 +1,11 @@
 import React from "react";
 import InicioTextProp from "../types/InicioTextProp";
 
-function InicioText({ text, color, font, rem, elem = "span" }: InicioTextProp) {
+function InicioText({ text, color, font, rem, elem = "span", customClass = "" }: InicioTextProp) {
   // Determinar el tipo de elemento a renderizar (por defecto, span)
   const Element = elem || "span";
-  console.log(Element);
+
+  const Class: string = customClass
 
   // Objeto de estilos dinámicos
   const dynamicStyles = {
@@ -31,7 +32,7 @@ function InicioText({ text, color, font, rem, elem = "span" }: InicioTextProp) {
   };
 
   // Renderizar el componente con el tipo de elemento determinado
-  return <Element style={dynamicStyles}>{text}</Element>;
+  return <Element style={dynamicStyles} className={`${customClass}`}>{text}</Element>;
 }
 
 export default InicioText;

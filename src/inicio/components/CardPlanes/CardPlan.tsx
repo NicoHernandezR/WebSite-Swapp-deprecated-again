@@ -111,12 +111,12 @@ function CardPlan({
       </div>
 
       <div className="flex flex-col items-center justify-center text-center">
-      <p className="w-[90%] font-SFProDisplay text-[0.625rem] text-custom-white">
+      <p className="w-[90%] font-SFProDisplayMedium text-[0.625rem] text-neutral-300">
         Gratis por 2 semanas. Después, cuesta $ 2.490 *** al mes. La oferta solo
         está disponible si aún no has probado Premium. Se aplican términos y
         condiciones.
       </p>
-      <p className="w-[90%] font-SFProDisplay text-[0.625rem] text-custom-white">La oferta termina el 15 de mayo de 2024. *** + impuestos
+      <p className="w-[90%] font-SFProDisplayMedium text-[0.625rem] text-neutral-300">La oferta termina el 15 de mayo de 2024. *** + impuestos
         aplicables</p>
       </div>
     </div>

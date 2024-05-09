@@ -6,7 +6,8 @@ type InicioTextProp = {
   color: string,
   font: FontTypes,
   rem: number
-  elem?: ElemType
+  elem?: ElemType,
+  customClass?: string,
 }
 
 export default InicioTextProp
