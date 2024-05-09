@@ -9,6 +9,10 @@ function Inicio() {
   return (
     <>
     <FirstLayer/>
+    <SecondLayer/>
+    <ThirdLayer/>
+    <ForthLayer/>
+    <FifthLayer/>
     </>
   );
 }

@@ -50,7 +50,7 @@ function ThirdLayer() {
   ];
   return (
     <div className="bg-thirdLayer bg-contain bg-repeat pt-16">
-      <div className="flex justify-center items-center gap-10 pl-5">
+      <div className="flex md:flex-row flex-col justify-center items-center gap-10 pl-5">
         <div className="flex">
           <img className="w-max h-max" src={phone} alt="Phone" />
         </div>
@@ -64,6 +64,7 @@ function ThirdLayer() {
                 rem={item.rem}
                 font={item.font}
                 elem={item.elem}
+                customClass="max-md:!text-[2.5rem] max-[900px]:!text-[3rem]"
               />
             ))}
           </div>

@@ -63,7 +63,7 @@ function FirstLayer() {
         </div>
 
         <div className="flex-[6] md:pl-2 relative md:bottom-[17px] md:left-[11px] max-xl:mt-4">
-          <img className="w-[40rem] sm:h-[38.3rem] max-sm:left-1 max-sm:relative" src={phone} alt="Phone" />
+          <img className="w-[40rem] sm:h-[38.3rem] max-sm:relative" src={phone} alt="Phone" />
         </div>
       </div>
     </div>

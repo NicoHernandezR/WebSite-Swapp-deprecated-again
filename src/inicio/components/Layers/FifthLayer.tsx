@@ -59,7 +59,7 @@ function FifthLayer() {
 
   return (
     <div className="bg-custom-white">
-      <div className="flex py-20 justify-evenly">
+      <div className="flex flex-wrap gap-5 py-20 justify-evenly">
         <div className="text-center">
           <p
             className="text-[2.5rem] font-SFProDisplayBold text-custom-primary"
@@ -88,7 +88,7 @@ function FifthLayer() {
       </div>
 
       <div className="w-auto pb-10">
-        <div className="flex flex-row justify-evenly items-center">
+      <div className="flex flex-wrap justify-evenly items-center gap-10">
           {cards.map((item, index) => (
             <CardPlan
               key={index}

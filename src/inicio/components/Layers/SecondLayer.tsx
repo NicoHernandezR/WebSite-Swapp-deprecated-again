@@ -25,8 +25,8 @@ function SecondLayer() {
   ];
 
   return (
-    <div className="bg-custom-primary h-screen flex justify-center items-center">
-      <div className="flex flex-col p-10 justify-center items-center h-screen">
+    <div className="bg-custom-primary flex justify-center items-center">
+      <div className="flex flex-col md:p-10 p-5 justify-center items-center ">
         <div className="flex items-center h-1/2">
           <p className="leading-none pt-10 italic text-center">
             {TextList.map((item, index) => (
@@ -36,13 +36,14 @@ function SecondLayer() {
                 color={item.color}
                 rem={item.rem}
                 font={item.font}
+                customClass="max-md:!text-[2rem]"
               />
             ))}
           </p>
         </div>
-        <div className="flex items-center h-1/2 w-3/4">
-          <p className="leading-none pt-12 text-center">
-            <span className="text-[2rem] text-helveticaNeue font-light text-custom-white">
+        <div className="flex items-center h-1/2 md:w-3/4">
+          <p className="leading-none md:pt-12 md:p-8 p-4 text-center">
+            <span className="text-[2rem] max-md:!text-[1rem] text-helveticaNeue font-light text-custom-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
               turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
               nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
