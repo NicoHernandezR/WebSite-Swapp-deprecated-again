@@ -1,33 +1,34 @@
 import React from "react";
-import phone from "../img/phone.svg";
-import logo from "../img/logo.svg";
-import btnds from "../img/dsbutton.svg";
-import InicioText from "./InicioText";
-import InicioTextProp from "../types/InicioTextProp";
+import phone from "../../img/phone.svg";
+import logo from "../../img/logo.svg";
+import btnds from "../../img/dsbutton.svg";
+import InicioText from "../InicioText";
+import InicioTextProp from "../../types/InicioTextProp";
 
 function FirstLayer() {
+   
   const InicioTextList: InicioTextProp[] = [
     {
-      text: "Un ",
+      text: "Renovar tu ",
       color: "white",
       font: "neue bold",
       rem: 6,
     },
     {
-      text: "nuevo concepto ",
+      text: "closet sin gastar ",
       color: "primary",
       font: "neue bold",
       rem: 6,
     },
     {
-      text: "de la moda",
+      text: "es posible",
       color: "white",
       font: "neue bold",
       rem: 6,
     },
   ];
   return (
-    <div className="bg-gradient-to-b from-custom-accent from-10% via-custom-accent via-30% to-custom-primary to-95%">
+    <div className="bg-gradient-to-b from-custom-secondary from-10% via-custom-secondary via-30% to-custom-primary to-95%">
       <div className="pt-10 px-[106px]">
         <img className="w-[206px] h-[54px]" src={logo} alt="Phone" />
       </div>
@@ -46,7 +47,7 @@ function FirstLayer() {
           </p>
           <div className="w-[83%] pt-9 pb-12">
             <p
-              className="text-[23px] leading-none font-subtitle 
+              className="text-[22px] leading-none font-subtitle 
             text-justify italic text-custom-white tracking-normal"
             >
               Esta innovadora aplicación complementa la moda circular, prioriza

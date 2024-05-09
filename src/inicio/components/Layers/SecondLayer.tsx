@@ -1,6 +1,6 @@
 import React from "react";
-import InicioTextProp from "../types/InicioTextProp";
-import InicioText from "./InicioText";
+import InicioTextProp from "../../types/InicioTextProp";
+import InicioText from "../InicioText";
 
 function SecondLayer() {
   const TextList: InicioTextProp[] = [

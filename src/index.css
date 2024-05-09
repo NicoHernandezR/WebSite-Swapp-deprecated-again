@@ -7,6 +7,14 @@
   font-family: "helvetica neue";
   src: url('/src/assets/fonts/HelveticaNeue/HelveticaNeueBlack.otf');
 }
+@font-face {
+  font-family: "helvetica neue light";
+  src: url('/src/assets/fonts/HelveticaNeue/HelveticaNeueLight.otf');
+}
+@font-face {
+  font-family: "helvetica neue heavy";
+  src: url('/src/assets/fonts/HelveticaNeue/HelveticaNeueHeavy.otf');
+}
 
 @font-face {
   font-family: "helvetica neue bold";
@@ -26,4 +34,24 @@
 @font-face {
   font-family: "SF Pro Display Bold";
   src: url('/src/assets/fonts/SfProDisplay/SFPRODISPLAYBOLD.OTF');
+}
+
+@font-face {
+  font-family: "SF Pro Display Light Italic";
+  src: url('/src/assets/fonts/SfProDisplay/SFPRODISPLAYLIGHTITALIC.OTF');
+}
+
+@font-face {
+  font-family: "SF Pro Display Thin Italic";
+  src: url('/src/assets/fonts/SfProDisplay/SFPRODISPLAYTHINITALIC.OTF');
+}
+
+@font-face {
+  font-family: "SF Pro Display Ultra Light Italic";
+  src: url('/src/assets/fonts/SfProDisplay/SFPRODISPLAYULTRALIGHTITALIC.OTF');
+}
+
+@font-face {
+  font-family: "SF Pro Display Medium";
+  src: url('/src/assets/fonts/SfProDisplay/SFPRODISPLAYMEDIUM.OTF');
 }

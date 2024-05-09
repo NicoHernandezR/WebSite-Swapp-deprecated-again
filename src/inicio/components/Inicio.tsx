@@ -1,7 +1,9 @@
 import React from "react";
-import FirstLayer from "./FirstLayer";
-import SecondLayer from "./SecondLayer";
-import ThirdLayer from "./ThirdLayer";
+import FirstLayer from "./Layers/FirstLayer";
+import SecondLayer from "./Layers/SecondLayer";
+import ThirdLayer from "./Layers/ThirdLayer";
+import ForthLayer from "./Layers/ForthLayer";
+import FifthLayer from "./Layers/FifthLayer";
 
 function Inicio() {
   return (
@@ -9,6 +11,8 @@ function Inicio() {
     <FirstLayer/>
     <SecondLayer/>
     <ThirdLayer/>
+    <ForthLayer/>
+    <FifthLayer />
     </>
   );
 }
