@@ -29,7 +29,7 @@ export default {
         text: ["San Francisco Pro Display"],
       },
       backgroundImage: {
-        "thirdLayer": "url('src/inicio/img/thirdBg.png')",
+        "thirdLayer": "url('src/inicio/img/thirdBg.svg')",
       },
     },
     fontSize: {

@@ -49,12 +49,12 @@ function ThirdLayer() {
     },
   ];
   return (
-    <div className="bg-thirdLayer bg-contain bg-repeat pt-16">
+    <div className="bg-thirdLayer bg-custom-secondary bg-contain bg-repeat pt-16">
       <div className="flex md:flex-row flex-col justify-center items-center gap-10 pl-5">
-        <div className="flex">
+        <div className="flex md:pb-10">
           <img className="w-max h-max" src={phone} alt="Phone" />
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center pb-10">
           <div className="leading-none pt-12 text-justify font-semibold">
             {TextList.map((item, index) => (
               <InicioText
