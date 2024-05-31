@@ -32,9 +32,9 @@ function FirstLayer() {
       <div className="pt-10 md:px-[106px] max-md:justify-center max-md:items-center max-md:flex">
         <img className="w-[206px] h-[54px]" src={logo} alt="Phone" />
       </div>
-      <div className="flex lg:flex-row flex-col justify-between items-center md:text-left md:pl-[100px] md:pr-[30px] pb-10">
-        <div className="flex-[5] whitespace-pre text-wrap pt-16 max-md:justify-between max-md:items-center
-        flex flex-col">
+      <div className="flex lg:flex-row flex-col justify-between items-center lg:text-left lg:pl-[100px] lg:pr-[30px] pb-10">
+        <div className="flex-[5] whitespace-pre text-wrap pt-16 max-lg:justify-between max-lg:items-center
+        flex flex-col max-lg:w-[70%]">
           <p className="leading-none relative bottom-[7px]  first-letter:w-auto max-lg:text-center md:w-[100%]">
             {InicioTextList.map((item, index) => (
               <InicioText

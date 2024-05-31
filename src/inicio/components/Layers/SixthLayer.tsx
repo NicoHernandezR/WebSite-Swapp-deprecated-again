@@ -8,7 +8,7 @@ import phone from "../../img/sixthIcon.svg";
 function SixthLayer() {
   const InicioTextList: InicioTextProp[] = [
     {
-      text: "Suscríbete para recibir las  ",
+      text: "Suscríbete para recibir las ",
       color: "primary",
       font: "neue bold",
       rem: 4.688,
@@ -25,11 +25,9 @@ function SixthLayer() {
       <div className="pt-10 md:px-[106px] max-md:justify-center max-md:items-center max-md:flex">
         <img className="w-[206px] h-[54px]" src={logo} alt="Phone" />
       </div>
-      <div className="flex lg:flex-row flex-col justify-between md:text-left md:pl-[100px] pb-10">
-        <div
-          className="flex-[5] whitespace-pre text-wrap pt-16 max-md:justify-between max-md:items-center
-        flex flex-col"
-        >
+      <div className="flex lg:flex-row flex-col justify-between items-center lg:text-left lg:pl-[100px] lg:pr-[30px] pb-10">
+      <div className="flex-[5] whitespace-pre text-wrap pt-16 max-lg:justify-between max-lg:items-center
+        flex flex-col max-lg:w-[70%]">
           <p className="leading-none relative bottom-[7px]  first-letter:w-auto max-lg:text-center md:w-[100%]">
             {InicioTextList.map((item, index) => (
               <InicioText
