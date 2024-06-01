@@ -1,9 +1,9 @@
 import React from "react";
-import InicioTextProp from "../../types/InicioTextProp";
-import phone from "../../img/thirdLPhone.svg";
-import InicioText from "../InicioText";
+import InicioTextProp from "../../../../types/InicioTextProp";
+import phone from "../img/thirdLPhone.svg";
+import InicioText from "../../../InicioText";
 
-function ThirdLayer() {
+function CaracsLayer() {
   const TextList: InicioTextProp[] = [
     {
       text: "GPS Integration.",
@@ -74,4 +74,4 @@ function ThirdLayer() {
   );
 }
 
-export default ThirdLayer;
+export default CaracsLayer;

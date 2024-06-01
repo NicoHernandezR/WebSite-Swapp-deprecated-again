@@ -1,11 +1,11 @@
 import React from "react";
-import phone from "../../img/phone.svg";
-import logo from "../../img/logo.svg";
-import btnds from "../../img/dsbutton.svg";
-import InicioText from "../InicioText";
-import InicioTextProp from "../../types/InicioTextProp";
+import phone from "../img/phone.svg";
+import logo from "../img/logo.svg";
+import btnds from "../img/dsbutton.svg";
+import InicioText from "../../../InicioText";
+import InicioTextProp from "../../../../types/InicioTextProp";
 
-function FirstLayer() {
+function IntroLayer() {
    
   const InicioTextList: InicioTextProp[] = [
     {
@@ -70,4 +70,4 @@ function FirstLayer() {
   );
 }
 
-export default FirstLayer;
+export default IntroLayer;

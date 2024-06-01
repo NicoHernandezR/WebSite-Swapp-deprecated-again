@@ -1,8 +1,8 @@
 import React from "react";
-import InicioTextProp from "../../types/InicioTextProp";
-import InicioText from "../InicioText";
+import InicioTextProp from "../../../types/InicioTextProp";
+import InicioText from "../../InicioText";
 
-function SecondLayer() {
+function DescLayer() {
   const TextList: InicioTextProp[] = [
     {
       text: "This product has been created ",
@@ -58,4 +58,4 @@ function SecondLayer() {
   );
 }
 
-export default SecondLayer;
+export default DescLayer;

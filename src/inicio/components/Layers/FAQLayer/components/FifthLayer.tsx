@@ -1,7 +1,7 @@
 import React from "react";
-import bg from "../../img/fifthbg.svg";
+import bg from "../img/fifthbg.svg";
 
-function FifthLayer() {
+function FAQLayer() {
   return (
     <div className="flex max-md:flex-col max-md:flex max-md:justify-center max-md:items-center bg-custom-primary">
       <div className="h-full w-[40%] ">
@@ -18,4 +18,4 @@ function FifthLayer() {
   );
 }
 
-export default FifthLayer;
+export default FAQLayer;

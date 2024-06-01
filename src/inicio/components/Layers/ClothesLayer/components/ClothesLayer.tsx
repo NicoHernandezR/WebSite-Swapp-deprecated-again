@@ -1,7 +1,7 @@
 import React from "react";
-import ropa from "../../img/ropa.svg";
+import ropa from "../img/ropa.svg";
 
-function ForthLayer() {
+function ClothesLayer() {
   return (
     <div className="flex flex-col h-auto">
       <div className="bg-custom-accent">
@@ -44,4 +44,4 @@ function ForthLayer() {
   );
 }
 
-export default ForthLayer;
+export default ClothesLayer;

@@ -1,11 +1,11 @@
 import React from "react";
-import InicioText from "../InicioText";
-import InicioTextProp from "../../types/InicioTextProp";
-import logo from "../../img/logo.svg";
-import btnds from "../../img/sixthBtn.svg";
-import phone from "../../img/sixthIcon.svg";
+import InicioText from "../../../InicioText";
+import InicioTextProp from "../../../../types/InicioTextProp";
+import logo from "../img/logo.svg";
+import btnds from "../img/sixthBtn.svg";
+import phone from "../img/sixthIcon.svg";
 
-function SixthLayer() {
+function SusDescLayer() {
   const InicioTextList: InicioTextProp[] = [
     {
       text: "Suscríbete para recibir las ",
@@ -66,4 +66,4 @@ function SixthLayer() {
   );
 }
 
-export default SixthLayer;
+export default SusDescLayer;

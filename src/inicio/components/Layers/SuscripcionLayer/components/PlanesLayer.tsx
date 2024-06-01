@@ -1,6 +1,6 @@
 import React from "react";
-import CardPlan from "../CardPlanes/CardPlan";
-import CardPlanProp from "../CardPlanes/CardPlanProp";
+import CardPlan from "../../../CardPlanes/CardPlan";
+import CardPlanProp from "../../../CardPlanes/CardPlanProp";
 import ticket from "../../img/ticket.svg"
 
 function FifthLayer() {
