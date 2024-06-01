@@ -21,7 +21,7 @@ function SusDescLayer() {
     },
   ];
   return (
-    <div className="bg-custom-white">
+    <div className="bg-custom-white relative md:-mt-20 -mt-0 z-10 rounded-[3rem] pb-20">
       <div className="pt-10 md:px-[106px] max-md:justify-center max-md:items-center max-md:flex">
         <img className="w-[206px] h-[54px]" src={logo} alt="Phone" />
       </div>
@@ -56,7 +56,7 @@ function SusDescLayer() {
 
         <div className="max-xl:flex max-xl:justify-center max-xl:items-center max-xl:pt-5 ">
           <img
-            className="w-[39.563rem] sm:h-[35.938rem] max-sm:relative"
+            className="w-[39.563rem] sm:h-[35.938rem] max-sm:relative "
             src={phone}
             alt="Person"
           />

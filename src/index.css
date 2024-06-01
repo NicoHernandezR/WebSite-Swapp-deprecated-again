@@ -7,6 +7,12 @@
   font-family: "helvetica neue";
   src: url('/src/assets/fonts/HelveticaNeue/HelveticaNeueBlack.otf');
 }
+
+@font-face {
+  font-family: "helvetica neue medium";
+  src: url('/src/assets/fonts/HelveticaNeue/HelveticaNeueMedium.otf');
+}
+
 @font-face {
   font-family: "helvetica neue light";
   src: url('/src/assets/fonts/HelveticaNeue/HelveticaNeueLight.otf');

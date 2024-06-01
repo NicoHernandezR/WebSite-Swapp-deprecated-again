@@ -15,6 +15,7 @@ export default {
       fontFamily: {
         title: ["Neue Haas Grotesk"],
         helveticaNeue: ["helvetica neue"],
+        helveticaNeueMedium: ["helvetica neue medium"],
         helveticaNeueBold: ["helvetica neue bold"],
         helveticaNeueLight: ["helvetica neue light"],
         helveticaNeueHeavy: ["helvetica neue heavy"],

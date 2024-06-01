@@ -9,8 +9,9 @@ import IntroLayer from "./Layers/IntroLayer/components/IntroLayer";
 import DescLayer from "./Layers/DescLayer/DescLayer";
 import CaracsLayer from "./Layers/CaracsLayer/components/CaracsLayer";
 import ClothesLayer from "./Layers/ClothesLayer/components/ClothesLayer";
-import FAQLayer from "./Layers/FAQLayer/components/FifthLayer";
+import FAQLayer from "./Layers/FAQLayer/components/FAQLayer";
 import SusDescLayer from "./Layers/SusDescLayer/components/SusDescLayer";
+import Footer from "./Layers/FooterLayer/components/Footer";
 
 function Inicio() {
   return (
@@ -19,8 +20,11 @@ function Inicio() {
     <DescLayer/>
     <CaracsLayer/>
     <ClothesLayer/>
-    <FAQLayer/>
-    <SusDescLayer/>
+    <div className="relative">
+      <FAQLayer />
+      <SusDescLayer />
+    </div>
+    <Footer/>
     </>
   );
 }
